@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+#login{
+	width: 100%;
+	min-height: 80vh;
+	background: rgb(241,241,241);
+}
+
+#login .contenedor{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 0;
+	
+}
+
+#login .form{
+	width: 50%;
+	background: white;
+	padding: 50px 0;
+}
+
+#login .form label{
+    display: block;
+    margin: 10px 70px;
+    font-size: 1.2em;
+}
+
+::placeholder{
+    font-family: 1.2rem;
+    color: rgba(255, 255, 255, .596);
+}
+
+#login .datos input, textarea{
+    display: block;
+    width: 75%;
+    height: 40px;
+    padding-left: 10px;
+    color: black;
+    border: 2px solid orangered;
+    font-size: 1.2em;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+#login .button{
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    gap: 2em;
+    width: 345px;
+}
+
+#login .btn-1{ 
+	padding: 15px 28px;
+	background-color: black;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+    font-weight: 600;
+    outline: none;
+    transition: 0.3s ease;
+    cursor: pointer;    
+}
+
+ #login .btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+#login .btn-2{ 
+	padding: 15px 28px;
+	background-color: orangered;
+	color: white;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+    font-weight: 600;
+    outline: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#login .btn-2:hover{
+    background-color: white;
+    color: orangered;
+}
+
+#login .imagen{
+	width: 50%;
+}
+
+#login .imagen img{
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+#login h2{
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 36px;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 1.2em;
+    margin-top: 20px; 
+}

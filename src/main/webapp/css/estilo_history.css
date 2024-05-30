@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+#history h2{
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 36px;
+}
+
+#history .form{
+	width: 100%;
+	margin: 1rem auto;
+}
+#history .contenedor{
+	padding: 60px 0;
+}
+
+#history .form label{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-size: 1.2em;
+}
+
+#history .form input, textarea{
+	width:100%;
+	padding: 1.5em;
+	font-size: 20px;
+	color: black;
+	background: rgb(241,241,241);
+	border-radius: .8rem;
+	margin: 1rem 0;
+	resize: none;
+}
+
+#history .btn-1{ 
+	padding: 15px 28px;
+	background-color: black;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+    font-weight: 600;
+    outline: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+ #history .btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+#history .btn-2{ 
+	padding: 15px 28px;
+	background-color: orangered;
+	color: white;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+    font-weight: 600;
+    outline: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#history .btn-2:hover{
+    background-color: white;
+    color: orangered;
+}
