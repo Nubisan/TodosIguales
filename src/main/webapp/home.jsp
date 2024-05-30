@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -29,6 +30,13 @@
             	<div class="home-content">
 					<h1>Todos somos Iguales</h1>
 					<p>Es una plataforma dedicada a promover la igualdad de oportunidades y combatir la discriminación en el lugar de trabajo. Nuestro objetivo es crear un entorno inclusivo donde todas las voces sean escuchadas y respetadas.</p>
+				<p>
+				    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+				        <img style="border:0;width:88px;height:31px"
+				            src="http://jigsaw.w3.org/css-validator/images/vcss"
+				            alt="¡CSS Válido!" />
+				    </a>
+				</p>
 				</div>
 				
 				<div class="home-img">
@@ -107,6 +115,7 @@
                 <div class="social_icon">         	
                     <a href="https://www.facebook.com/RomeoSantosOfficial" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
                     <a href="https://www.youtube.com/user/romeo" target="_blank"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.linkedin.com/in/nubia-araujo-9b3646308/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
                 </div> 
                 
                 <p>© 2024 Todos somos Iguales | Todos los derechos reservados</p>

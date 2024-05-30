@@ -1,12 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8" import="com.informacion.*" import = "java.util.*"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Recursos y apoyo</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -39,7 +41,8 @@
         
 		<section id="introduccion">
             <div class="contenedor">
-                <article class="historias">
+            <h2>APOYO</h2>
+                <article class="apoyo">
                 	<% if (apoyosPublicados) { %>
                         <% for (Apoyo apoyoIndividual : apoyos) { %>
                             <p><%= apoyoIndividual.getTipo() %></p>
@@ -56,6 +59,7 @@
         
         <section id="recursos">
             <div class="contenedor">
+            <h2>RECURSOS</h2>
             <% if (recursosPublicados) { %>
             	<div id="carouselExample" class="carousel carousel-dark slide">
 				  <div class="carousel-inner">
@@ -102,5 +106,6 @@
             </div>
         </footer>
 	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
