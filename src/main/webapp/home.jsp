@@ -30,17 +30,10 @@
             	<div class="home-content">
 					<h1>Todos somos Iguales</h1>
 					<p>Es una plataforma dedicada a promover la igualdad de oportunidades y combatir la discriminación en el lugar de trabajo. Nuestro objetivo es crear un entorno inclusivo donde todas las voces sean escuchadas y respetadas.</p>
-				<p>
-				    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-				        <img style="border:0;width:88px;height:31px"
-				            src="http://jigsaw.w3.org/css-validator/images/vcss"
-				            alt="¡CSS Válido!" />
-				    </a>
-				</p>
 				</div>
 				
 				<div class="home-img">
-					<img alt="Imagen personas con discapacacidades" src="imagenes/logo.png">
+					<img alt="Imagen personas con discapacidades" src="imagenes/logo.png">
 				</div>
 			</div>
         </div>
@@ -119,7 +112,15 @@
                 </div> 
                 
                 <p>© 2024 Todos somos Iguales | Todos los derechos reservados</p>
+                <p>
+				    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+				        <img style="border:0;width:88px;height:31px"
+				            src="http://jigsaw.w3.org/css-validator/images/vcss"
+				            alt="¡CSS Válido!" />
+				    </a>
+				</p>
             </div>
+            
         </footer>
 	</main>
 </body>

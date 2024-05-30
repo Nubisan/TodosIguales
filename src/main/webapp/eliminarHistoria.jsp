@@ -13,10 +13,10 @@
         Historia he = new Historia();
         boolean f = he.eliminarHistoria(cod);
         if (f == true) {
-        	response.sendRedirect("historias.jsp");
+        	response.sendRedirect("admin.jsp");
         } else {
         	%> 
-    		<jsp:forward page="historias.jsp"> 
+    		<jsp:forward page="admin.jsp"> 
     		<jsp:param name="error" value="No se pudo eliminar la historia"/> 
     		</jsp:forward> 
     		<% 
